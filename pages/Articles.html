@@ -5,40 +5,13 @@
 <link rel="stylesheet" href="../css/carousel.css">
 <link rel="stylesheet" href="../css/iframe.css">
 <link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/site.css">
 <style>
-    table tr td {
-        width: 33%;
-    }
-  
-  #center-col {
-    width: 75%;
-        margin: auto;
-        background-color: lightgray;
-        padding: 10px 50px 10px 50px;
-        height: 90vh;
-  }
 
-  #page-title {
-    text-align: center;
-  }
-
-  .main-text {
-    font-size: 20px;
-  }
-
-  .square img {
-            float: left;
-            margin: 10px;
-        }
- 
-        .square p {
-            text-align: justify;
-            font-size: 25px;
-        }
 </style>
 </head>
 <body>
-    <table>
+    <table id="carousel-table">
         <tr>
             <td></td>
             <td>
@@ -67,17 +40,8 @@
             </td>
             <td></td>
         </tr>
-        <tr>
-            <td></td>
-            <td>
-                <div style="width: 50px; margin: auto;">
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
-                </div>
-            </td>
-            <td></td>
-        </tr>
     </table>
+    <br>
     <ul class="navbar">
       <li><a href="../index.html">Home</a></li>
       <li><a href="Articles.html">Articles</a></li>
@@ -138,7 +102,13 @@
   
       </table>
     </div>
-
+    <div>
+      <p>Sources</p>
+      <ul>
+          <li>Early, M. |. F. U. P. (2024, February 22). NONO. https://www.mendelian.co/genes/nono</li>
+          <li>NONO-associated X-linked ID syndrome. (2021). Unique. Retrieved February 24, 2024, from https://rarechromo.org/media/singlegeneinfo/Single%20Gene%20Disorder%20Guides/NONO-associated%20X-linked%20ID%20syndrome%20QFN.pdf</li>
+      </ul>
+    </div>
     <script>
         let slideIndex = 0;
         showSlides();

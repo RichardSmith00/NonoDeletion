@@ -1,0 +1,25 @@
+#center-col {
+    width: 75%;
+    margin: auto;
+    background-color: lightgray;
+    padding: 10px 50px 10px 50px;
+    overflow: hidden;
+  }
+
+  #page-title {
+    text-align: center;
+  }
+
+  .main-text {
+    font-size: 20px;
+  }
+/* Image wrap */
+  .square img {
+    float: left;
+    margin: 10px;
+}
+
+.square p {
+    text-align: justify;
+    font-size: 25px;
+}
